@@ -1,0 +1,114 @@
+
+.card {
+    width: 700px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: aqua;
+    transition: 0.3s;
+    font-family: "Courier 10 Pitch";
+    border-radius: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 75%;
+    border-radius: 5px;
+}
+
+.audio{
+    width: 100%;
+    height: 75%;
+    padding-top: 0px;
+}
+
+
+.card:hover {
+    box-shadow: 0 32px 32px 0 rgba(0,0,0,0.2);
+    opacity: 0.85;
+}
+
+
+.container {
+    padding: 2px 16px;
+}
+
+.form-style-4{
+    width: 630px;
+    font-size: 16px;
+    background: #495C60;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #53687E;
+    margin-left: 50px;
+
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button],
+.form-style-4 input[type=text],
+.form-style-4 input[type=email],
+.form-style-4 textarea,
+.form-style-4 label
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+
+.form-style-4 input[type=text],
+.form-style-4 input[type=email]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+
+.form-style-4 textarea{
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    overflow: hidden;
+    resize:none;
+    height:20px;
+}
+
+.form-style-4 textarea:focus,
+.form-style-4 input[type=text]:focus,
+.form-style-4 input[type=email]:focus,
+.form-style-4 input[type=email] :focus
+{
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+    background: #394D61;
+}
